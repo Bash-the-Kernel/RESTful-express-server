@@ -1,0 +1,30 @@
+<section class="home-hero">
+    <h2>Welcome to the Product Management System</h2>
+    <p>This was built in an Advanced Web Programming Class by a very chaotic <s>student</s> professor.</p><br>
+
+    <div class="actions">
+        <a href="/products" class="btn view-btn">View Products</a>
+        <a href="/products/new" class="btn">Add New Product</a>
+    </div>
+</section>
+
+<section class="features">
+    <h3>Features</h3>
+    <br>
+    <ul>
+        <li>Complete CRUD operations for products - <em>create, read, update, and delete</em></li>
+        <li>File-based data persistence - Products are stashed in /data/products.json</li>
+        <li>API endpoints for integration</li>
+        <li>Responsive frontend interface</li>
+        <li>Input validation and error handling</li>
+    </ul>
+    <br>
+    <h3>Broken Stuff (that I may one day fix)</h3>
+    <br>
+    <ul>
+        <li>Edit products doesn't work using the gui form, however, it does work using API PUT method</li>
+        <li><em>Not broken, but </em>logic is needed to handle strings, floats, and ints for form inputs. Currently, there is
+            validation on the form (frontend), but doesn't have a backend check. Ideally, we would have both.</li>
+        <li><em>Not broken, but </em>The product list doesn't perform any sort when pulled. Should implement multiple sorts and a dropdown to select which one.</li>
+    </ul>
+</section>
